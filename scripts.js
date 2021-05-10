@@ -57,27 +57,7 @@ window.addEventListener("load", function () {
 	katex.render("f(t)=\\frac{350}{{{(x-45)}^2}+9}", el);
 });
 
-// window.addEventListener("load", function () {
-// 	var f = "\\frac{1}{5} \\sin (2t) + \\sqrt{t} + 6";
-// 	var res = document.getElementById('V_dog');
-// 	katex.render(f, res);
-
-// 	f = "\\frac{1}{2} \\sin (t) + 2\\cdot\\sqrt{t}"
-// 	res = document.getElementById('V_Henry');
-// 	katex.render(f, res);
-
-// 	f = "\\approx"
-// 	res = document.getElementById('Okolo1');
-// 	katex.render(f, res);
-// 	f = "\\approx"
-// 	res = document.getElementById('Okolo2');
-// 	katex.render(f, res);
-// 	f = "\\approx"
-// 	res = document.getElementById('Okolo3');
-// 	katex.render(f, res);
-// });
-
-window.onload = function(){
+window.addEventListener("load", function () {
 	var f = "\\frac{1}{5} \\sin (2t) + \\sqrt{t} + 6";
 	var res = document.getElementById('V_dog');
 	katex.render(f, res);
@@ -95,7 +75,27 @@ window.onload = function(){
 	f = "\\approx"
 	res = document.getElementById('Okolo3');
 	katex.render(f, res);
-};
+});
+
+// window.onload = function(){
+// 	var f = "\\frac{1}{5} \\sin (2t) + \\sqrt{t} + 6";
+// 	var res = document.getElementById('V_dog');
+// 	katex.render(f, res);
+
+// 	f = "\\frac{1}{2} \\sin (t) + 2\\cdot\\sqrt{t}"
+// 	res = document.getElementById('V_Henry');
+// 	katex.render(f, res);
+
+// 	f = "\\approx"
+// 	res = document.getElementById('Okolo1');
+// 	katex.render(f, res);
+// 	f = "\\approx"
+// 	res = document.getElementById('Okolo2');
+// 	katex.render(f, res);
+// 	f = "\\approx"
+// 	res = document.getElementById('Okolo3');
+// 	katex.render(f, res);
+// };
 
 // Интегралы для Генри
 window.onload = function(){
