@@ -1,0 +1,45 @@
+.Description {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	padding: 3% 2% 1% 1%;
+	
+	position: relative;	
+}
+
+
+.Svitok, .Tables, .Vklad, .Henry_see,
+.Dog, .Henry_run {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;	
+	max-width: 100%;
+	height: auto;
+		
+	border-radius: 8px;	
+	margin-bottom: 2%;
+		
+}
+
+.Svitok, .Tables {
+	width: 50%
+}
+
+.Henry_see, .Dog {
+	width: 42%;
+}
+
+.Henry_run {
+	width: 50%;
+}
+
+.Henry_and_dog {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.links {
+	color: #0095B6;
+}

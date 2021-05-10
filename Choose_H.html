@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Веб-квест. Сэр Генри</title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="flexboxgrid2.css">
+    <link rel="stylesheet" href="roles_style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.9/dist/katex.min.css" integrity="sha384-r/BYDnh2ViiCwqZt5VJVWuADDic3NnnTIEOv4hOh05nSfB6tjWpKmn1kUHOVkMXc" crossorigin="anonymous">
+
+</head>
+
+<body class="MainBody">
+	<div class="MainBody_white">
+        <div class="container">
+<!-- Подключение скриптов -->
+			<script defer src="https://cdn.jsdelivr.net/npm/webfontloader@1.6.28/webfontloader.js" integrity="sha256-4O4pS1SH31ZqrSO2A/2QJTVjTPqVe+jnYgOWUVr7EEc=" crossorigin="anonymous"></script>
+			<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.9/dist/katex.min.js" integrity="sha384-zDIgORxjImEWftZXZpWLs2l57fMX9B3yWFPN5Ecabe211Hm5ZG/OIz2b07DYPUcH" crossorigin="anonymous"></script>
+        	
+            <div class="Top">
+					<a href="#" class="Menu-btn">
+							<span></span>
+						</a>
+					<div class="Header">WEB-КВЕСТ</div>
+						<div class="Name">&laquo;ТАЙНА ИНТЕГРАЛА&raquo;</div>
+					<div class="Top_img"></div>
+					<a href="About_me.html" class="About_me">Обратная связь</a>			
+			</div>
+
+            <div class="row BODY">
+                    <div class="Menu"> 
+						<nav class="menu-list">
+							<div class="MenuHeader">МЕНЮ</div>
+								<span></span>
+								<a href="index.html" class="First_item">Главная</a>
+								<br><a href="Roles.html" class="Second_item">Выбрать роль</a>
+								<br><a href="Stages.html" class="Third_item">Этапы квеста</a>
+								<br><a href="Scenario.html" class="Fourth_item">Сценарий квеста</a>
+								<br><a href="About_me.html" class="Fifth_item">О сайте</a>
+						</nav>
+					</div>
+
+
+					<div class="Mycontent">
+						<div class="header_content">Вы выбрали роль сэра Генри!</div>
+						<img src="image/Henry.jpg" alt="Сэр Генри Баскервиль" class="role_img" title="Сэр Генри Баскервиль">
+						
+						<!-- ШИФР -->
+						<br><span class="task"><a name="task_1" >Задание №1.</a></span>
+						<p>Вам нужно вычислить 6 интегралов. Ответы - это номер буквы из таблицы. Составьте эти буквы в слово, которое является названием шифра. Именно им зашифрована вся фраза. </p>
+						<img src="image/Table_letters.png" alt="Таблица для дешифрования" class="Image Table" title="Таблица для дешифрования">
+						<p>Ссылки, которые вы можете использовать:
+						<ul>
+							<li></li>
+						</ul></p>
+						<p>Если у вас возникли затруднения, можете попросить помощи у других участников веб-квеста!</p>
+						<p>Интегралы:
+							<ol start="1">
+								<li>
+									<span id="Int1"></span>
+								</li>
+								<br><li>
+									<span id="Int2"></span>
+								</li>
+								<br><li>
+									<span id="Int3"></span>
+								</li>
+								<br><li>
+									<span id="Int4"></span>
+								</li>
+								<br><li>
+									<span id="Int5"></span>
+								<br>Подсказка: Область интегрирования ограничена:
+								Cверху - графиком функции, снизу - осью ОХ на промежутках:
+								<span id="Int5_add1"></span>
+								<br>Cверху - осью ОХ, снизу - графиком функции на промежутке: <span id="Int5_add2"></span> 
+								</li>
+								<br><br><li>
+									<span id="Int6"></span>
+								</li>
+							</ol></p>
+
+					
+				</div>
+
+				</div>
+			</div>
+		</div>
+
+	<a href="#" class="back_to_top"></a>
+
+	<script src="scripts.js"></script>
+</body>
+</html>

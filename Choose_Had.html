@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Веб-квест. Миссис Хадсон</title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="flexboxgrid2.css">
+    <link rel="stylesheet" href="roles_style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.9/dist/katex.min.css" integrity="sha384-r/BYDnh2ViiCwqZt5VJVWuADDic3NnnTIEOv4hOh05nSfB6tjWpKmn1kUHOVkMXc" crossorigin="anonymous">
+
+</head>
+
+<body class="MainBody">
+	<div class="MainBody_white">
+        <div class="container">
+        	<!-- Подключение скриптов -->
+			<script defer src="https://cdn.jsdelivr.net/npm/webfontloader@1.6.28/webfontloader.js" integrity="sha256-4O4pS1SH31ZqrSO2A/2QJTVjTPqVe+jnYgOWUVr7EEc=" crossorigin="anonymous"></script>
+			<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.9/dist/katex.min.js" integrity="sha384-zDIgORxjImEWftZXZpWLs2l57fMX9B3yWFPN5Ecabe211Hm5ZG/OIz2b07DYPUcH" crossorigin="anonymous"></script>
+
+            <div class="Top">
+					<a href="#" class="Menu-btn">
+							<span></span>
+						</a>
+					<div class="Header">WEB-КВЕСТ</div>
+						<div class="Name">&laquo;ТАЙНА ИНТЕГРАЛА&raquo;</div>
+					<div class="Top_img"></div>
+					<a href="About_me.html" class="About_me">Обратная связь</a>			
+			</div>
+
+            <div class="row BODY">
+                    <div class="Menu"> 
+						<nav class="menu-list">
+							<div class="MenuHeader">МЕНЮ</div>
+								<span></span>
+								<a href="index.html" class="First_item">Главная</a>
+								<br><a href="Roles.html" class="Second_item">Выбрать роль</a>
+								<br><a href="Stages.html" class="Third_item">Этапы квеста</a>
+								<br><a href="Scenario.html" class="Fourth_item">Сценарий квеста</a>
+								<br><a href="About_me.html" class="Fifth_item">О сайте</a>
+						</nav>
+					</div>
+
+
+					<div class="Mycontent">
+						<div class="header_content">Вы выбрали роль миссис Хадсон!</div>
+						<img src="image/Hadson.jpg" alt="Миссис Хадсон" class="role_img" title="Миссис Хадсон">
+
+						<!-- ПЛОЩАДЬ -->
+						<br><span class="task"><a name="task_1" >Задание №1.</a></span>
+						<p>Вам необходимо посчитать площадь пола, используя данные на изображении. Для выполнения задания пользуйтесь интегрированием. Вам может понадобиться формула из примера 4 на <a href="http://mathprofi.ru/vychislenie_ploshadi_c_pomoshju_opredelennogo_integrala.html" class="links" target="_blank">сайте</a>.
+						</p>
+						<img class="Image Home" src="image/Home.png" alt="План дома" title="План дома">
+						<div class="answer">Ваш ответ: </div>
+							<br>
+							<!-- Выше подключены скрипты -->
+							У) <span id="frac1"></span> км; &nbsp;&nbsp; 
+
+							<p>Эта буква стоит в фразе на местах: <span class="answer" >52, 65.</span></p>
+
+
+							<!-- СВОЙСТВА -->
+							<br><span class="task"><a name="task_2" >Задание №2.</a></span>
+
+				</div>
+
+				</div>
+			</div>
+		</div>
+
+	<a href="#" class="back_to_top"></a>
+
+	<script src="scripts.js"></script>
+</body>
+</html>

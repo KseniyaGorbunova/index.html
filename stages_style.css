@@ -1,0 +1,24 @@
+span {
+	display: flex;
+	justify-content: center;
+	color: #7B68EE;
+	font-size: 25px;
+}
+
+.stage {
+	background: rgb(2,0,36);
+	background: radial-gradient(circle, rgb(251,251,249) 0%, rgb(233,232,230) 15%, rgb(97,101,110) 120%);
+	border-radius: 30px;
+	padding: 2%;
+	margin: 4%;
+	font-size: 20px;
+
+	box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+}
+
+.content_header {
+	font-size: 23px;
+}
+
+
+

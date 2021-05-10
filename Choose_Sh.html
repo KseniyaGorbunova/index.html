@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Веб-квест. Шерлок Холмс</title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="flexboxgrid2.css">
+    <link rel="stylesheet" href="roles_style.css">
+
+    <script src="katex.min.js" type="text/javascript"></script>
+    <link href="katex.min.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body class="MainBody">
+	<div class="MainBody_white">
+        <div class="container">
+        	<script defer src="https://cdn.jsdelivr.net/npm/webfontloader@1.6.28/webfontloader.js" integrity="sha256-4O4pS1SH31ZqrSO2A/2QJTVjTPqVe+jnYgOWUVr7EEc=" crossorigin="anonymous"></script>
+
+            <div class="Top">
+					<a href="#" class="Menu-btn">
+							<span></span>
+						</a>
+					<div class="Header">WEB-КВЕСТ</div>
+						<div class="Name">&laquo;ТАЙНА ИНТЕГРАЛА&raquo;</div>
+					<div class="Top_img"></div>
+					<a href="About_me.html" class="About_me">Обратная связь</a>			
+			</div>
+
+            <div class="row BODY">
+                    <div class="Menu"> 
+						<nav class="menu-list">
+							<div class="MenuHeader">МЕНЮ</div>
+								<span></span>
+								<a href="index.html" class="First_item">Главная</a>
+								<br><a href="Roles.html" class="Second_item">Выбрать роль</a>
+								<br><a href="Stages.html" class="Third_item">Этапы квеста</a>
+								<br><a href="Scenario.html" class="Fourth_item">Сценарий квеста</a>
+								<br><a href="About_me.html" class="Fifth_item">О сайте</a>
+						</nav>
+					</div>
+
+
+					<div class="Mycontent">
+						<div class="header_content">Вы выбрали роль Шерлока Холмса!</div>
+						<img src="image/ShHolms.jpg" alt="Шерлок Холмс" class="role_img" title="Шерлок Холмс">
+						
+						<!-- КРОССВОРД -->
+						<br><span class="task"><a name="task_1" >Задание №1.</a></span>
+						<p></p>
+
+						<!-- ГРАФИКИ-БУКВЫ -->
+						<br><span class="task"><a name="task_2" >Задание №2.</a></span>
+						<p>Вы <a href="Choose_M.html#task_1" class="links" target="_blank">помогаете Майкрофту Холмсу</a> с построением графиков функций.</p>
+
+						<!-- СОБАКА-ГЕНРИ -->
+						<br><span class="task"><a name="task_3" >Задание №3.</a></span>
+						<p>Догнала ли собака Генри?
+						<br>Собака находилась за 50 метров от Ватсона и Генри, когда они побежали (<i>t</i> = 0). 
+						<br>Скорость собаки меняется по закону: <span id="V_dog"></span>. 
+						<br>Скорость Генри меняется по закону: <span id="V_Henry"></span>. 
+						<br>Генри бежал <i>T</i> = 16 секунд, после чего собака упала. Узнайте приблизительно, насколько близко подобралась собака к Генри, используя данные из повествования.</p>
+						<p>Вознаграждение: два символа из зашифрованной фразы.</p>
+						<div class="answer">Ваш ответ: </div>
+							<br>
+							Пробел, С) <span id="Okolo1"></span> 3.3 м; &nbsp;&nbsp;
+							Тире, О) <span id="Okolo2"></span> 0.3 м; &nbsp;&nbsp;
+							Пробел, Ш) <span id="Okolo3"></span> 13 м
+
+						<br>Первый символ стоит в фразе на местах: <span class="answer">41.</span>
+						<br>Вторая буква стоит в фразе на местах: <span class="answer">4, 14, 24.</span>
+
+					
+				</div>
+
+				</div>
+			</div>
+		</div>
+
+	<a href="#" class="back_to_top"></a>
+
+	<script src="scripts.js"></script>
+</body>
+</html>

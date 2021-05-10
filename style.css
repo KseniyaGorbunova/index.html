@@ -1,0 +1,332 @@
+@@ -0,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+	scroll-behavior: smooth;
+}
+
+body {
+	position: relative;
+    font-family: Garamond, Roboto, Helvetica, Arial,   sans-serif;
+	height: 100%;
+
+}
+
+.MainBody {
+	display: flex;
+	align-items: stretch;
+	
+	position: relative;
+	height: 90%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center center;
+    background-image: url("image/fon_3.jpg");
+	
+}
+
+.MainBody_white {
+	background-color: rgba(180,177,196, .92);
+	/* height: auto; */
+	min-height: 100.8vh;
+	padding: 0 1%;
+	margin: -0.6%;
+	margin-bottom: auto;
+	margin-top: -1%;
+	
+    top: auto;
+}
+
+.Top {
+    width: 92%;
+	margin-top: 0;
+    margin-bottom: 1%;
+    padding: 2% 2% 1% 6%;
+	position: relative;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+	align-items: center;
+
+    background-color: rgb(47,44,48);
+}
+
+/*Menu-btn lower*/
+
+.Header {
+	margin-left: 7%;
+    color: rgb(251,251,249);
+}
+.Header, .Name {
+	display: block;
+    font-weight: bold;
+    font-size: 3.5vw;/*40px;*/
+}
+
+.Name{
+	color: rgb(233,232,230);
+	/*font-family: Garamond;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0 0 1vw #fff, 
+    	0 0 2vw #fff, 0 0 3vw #fff, 0 0 4vw #ff00de, 0 0 5vw #ff00de, 0 0 6vw #ff00de, 0 0 8vw #ff00de, 0 0 10vw #ff00de;*/
+}
+
+.About_me {
+	display: block;
+    font-weight: bold;
+    font-size: 2vw;
+    color: rgb(251,251,249);
+	
+	text-decoration: none;
+	cursor: pointer;
+	transition: .7s;
+}
+
+.About_me:hover {
+	color: rgb(186,192,206);
+}
+
+
+
+.BODY {
+	position: relative;
+	overflow-x: hidden; /*убираем нижнюю прокрутку*/
+}
+
+
+.Menu { 
+	/*position: fixed;	
+	left: 1.3vw; 
+	top: 7.7vw; */
+	position: absolute;
+	left: 0; 
+	top: 0.4vw;	
+	width: 15vw;
+	/*border: 2px groove rgb(70,72,79);*/
+    background-color: rgba(97,101,110,.75);
+    padding: 2%; 
+	text-align: left;
+    border-radius: 5px;
+	height: 30vw;
+	border: groove 0.5vw #A5A5A5;/*#4D5D53;*/
+	
+	transform: translateX(-109%);
+	transition: 0.5s;
+}
+
+.MenuHeader{
+	display: block;
+	margin-bottom: 4%;
+	border-bottom: 3px solid rgb(70,72,79);
+    color: rgb(241,241,241);
+    font-size: 3vw;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: rgb(233,232,230);
+    text-align: center;
+
+    /*font-family: Garamond;*/
+    text-transform: uppercase;
+    text-shadow:3px 3px 10px #293133,-3px -3px 10px #6A5ACD;
+	
+	/*color: #101921;	*/
+}
+
+.menu-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	flex-direction: column;
+	
+	/*font-family: Garamond;*/
+	text-shadow: 3px 1.5px #293133; 
+	color: #ece2ca;
+}
+
+.Menu-btn {
+	display: block;
+	/*width: 40px;
+	height: 30px;*/
+	width: 4.5vw;
+	height: 3vw;
+	
+	background-color: rgb(47,44,48);
+	/*position: fixed;*/
+	position: absolute;
+	/*left: 10px;*/
+	left: 1vw;
+	top: 1.5vw;/*30px;	*/
+}
+
+.Menu-btn span,
+.Menu-btn span::before,
+.Menu-btn span::after {
+	position: absolute;
+	top: 50%; margin-top:-2px;
+	left: 50%; margin-left: -15px;
+	width: 30px;/*4vw;*/
+	height: 4px;
+	background-color: rgb(251,251,249);
+}
+.Menu-btn span::before,
+.Menu-btn span::after {
+	content: '';
+	display: block;
+	transition: 0.5s;
+}
+.Menu-btn span::before {
+	transform: translateY(9px);
+}
+.Menu-btn span::after {
+	transform: translateY(-10px);
+}
+.Menu_active {
+	transform: translateX(3%);	
+}
+.Menu-btn_active span:before {
+	transform: rotate(35deg);
+	width: 15px;
+	transform-origin: left bottom;
+}
+.Menu-btn_active span:after {
+	transform: rotate(-35deg);
+	width: 15px;
+	transform-origin: left top;
+}
+
+	
+
+.First_item, .Second_item, .Third_item, 
+.Fourth_item, .Fifth_item {
+	color: rgb(251,251,249);
+	/*color: rgb(47,44,48);*/
+	/*font-weight: bold;*/
+    font-size: 2.3vw;
+    line-height: 180%;
+	text-decoration: none;
+	cursor: pointer;
+	transition: .7s;
+}
+
+.Fourth_item {
+	font-size: 2.1vw;
+}
+
+
+
+.Mycontent {
+    height: auto;
+    padding: 3%;
+	margin: 2%;
+    top: 0;
+    background-color: rgb(241,241,241);
+    color: rgb(47,44,48);
+	font-size: 19px;
+	font-weight: bold;
+	line-height: 120%;
+	transition: 0.5s;
+	position: relative;	
+}
+
+.Mycontent_active {
+	transform: translateX(20vw);
+	width: 70%;
+}
+
+.Introduction {
+	color: rgb(31,54,104);
+	text-align: center;
+	font-size: 25px;
+	font-stretch: ultra-expanded;
+}
+
+.Target, .Task {
+	text-align: center;
+	color: rgb(31,54,104);
+	font-size: 25px;
+	line-height: 200%;
+}
+
+.Intr_image {
+	display: flex;
+	justify-content: space-between;
+}
+
+.Henry_img, .Castle_img  {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	border-radius: 8px;
+	
+	max-width: 100%;
+	height: auto;
+	
+}
+
+.Castle_img {
+	width: 60%;
+}
+
+.links {
+	text-decoration: none;
+	color: #7B001C;
+	transition: .3s;
+}
+
+.links:hover {
+	color: rgb(47,44,48);	
+}
+
+.back_to_top {
+	position: fixed;
+	right: 12px;
+	bottom: 10px;
+	width: 45px; 
+	height: 45px;
+	border-radius: 50%;
+	background: linear-gradient(130deg, rgb(180,177,196) 50%, rgb(47,44,48) 50%);
+	background-size: 300%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: .5s;
+}
+
+
+.back_to_top:hover {
+	background-position: 100% 0;
+}
+
+.back_to_top::before,
+.back_to_top::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.back_to_top::before {
+	width: 5px;
+	height: 25px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	background-color: rgb(251,251,249);	
+}
+
+.back_to_top::after {
+	width: 15px;
+	height: 15px;
+	transform: translate(-50%, -50%) rotate(45deg);
+	border-top: 5px solid rgb(251,251,249);
+	border-left: 5px solid rgb(251,251,249);
+}

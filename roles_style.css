@@ -1,0 +1,174 @@
+
+.Roles_img {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: space-between;
+	padding: 3% 2% 1% 1%;
+	
+	position: relative;	
+}
+
+
+
+.Sherlock, .Watson, .Henry, .Microft, .Hadson, .Lestreid {
+	display: flex;
+	width: 50%;
+	max-width: 100%;
+	position: relative;
+	perspective: 3000px;
+	backface-visibility: hidden;
+}
+
+
+.First, .Second, .Third, .Fourth, .Fifth, .Sixth { 
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;	
+	max-width: 100%;
+	height: auto;
+		
+	border-radius: 8px;	
+	margin-bottom: 2%;
+		
+	
+	transition: 1.7s;
+	backface-visibility: hidden;	
+}
+
+
+.middle_first, .middle_second, .middle_third, .middle_fourth,
+.middle_fifth, .middle_sixth  {
+	transform: rotateY(180deg);
+	backface-visibility: hidden;
+	transition: 1.7s;
+	
+	position: absolute;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: space-between;
+	width: 70%;
+	height: 98%;
+	
+	top: 0;
+	left: 15%;
+	
+	
+	
+	background-color: rgb(233,232,230);
+	color: rgb(47,44,48);
+	text-align: center;
+	border-radius: 8px;
+}
+
+
+.Sherlock:hover .First, .Watson:hover .Second, .Henry:hover .Third,
+.Microft:hover .Fourth, .Hadson:hover .Fifth, .Lestreid:hover .Sixth {
+	transform: rotateY(180deg);
+}
+
+
+.Sherlock:hover .middle_first, .Watson:hover .middle_second,
+.Henry:hover .middle_third, .Microft:hover .middle_fourth,
+.Hadson:hover .middle_fifth, .Lestreid:hover .middle_sixth {
+	display: flex;
+	transform: rotateY(360deg);
+}
+
+
+.text_Sh, .text_W, .text_H, .text_M, .text_Had, .text_L,
+.Choose_Sh, .Choose_W, .Choose_H, .Choose_M, .Choose_Had, .Choose_L,
+.description_Sh, .description_W, .description_H, .description_M, .description_Had, .description_L {
+	display: flex;	
+	justify-content: center;
+	align-items: space-between;
+	padding: 1.5vw 1vw;
+	margin: 0 2vw 1vw 2vw;
+}
+
+.text_Sh, .text_W, .text_H, .text_M, .text_Had, .text_L {	
+	background-color: rgb(47,44,48);
+	color: rgb(251,251,249);
+	font-size: 1.7vw;
+	line-height: 90%;
+	border-radius: 8px;
+}
+
+.description_Sh, .description_W, .description_H, .description_M, .description_Had, .description_L {
+	background-color: rgb(97,101,110);
+	color: rgb(251,251,249);
+	font-size: 1.5vw;
+	line-height: 120%;
+	border: 3px ridge rgba(70,72,79, .6);
+	border-radius: 8px;
+}
+
+.description_Sh_active, .description_W_active, .description_H_active, .description_M_active, .description_Had_active, .description_L_active {
+	font-size: 1vw;
+}
+
+.Choose_Sh, .Choose_W, .Choose_H, .Choose_M, .Choose_Had, .Choose_L {
+	background: rgb(2,0,36);
+	background: radial-gradient(circle, rgb(251,251,249) 0%, rgb(233,232,230) 35%, rgb(97,101,110) 100%);
+	color: rgb(47,44,48);
+	font-size: 1.7vw;
+	font-weight: bold;
+	line-height: 100%;
+	padding: 5% 4%;
+	border-radius: 6px;
+	border: 3px ridge rgba(70,72,79, .6);
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.header_content {
+	text-align: center;
+}
+
+.links {
+	color: #0095B6;
+}
+
+.answer {
+	color: #6A5ACD;
+}
+
+.task {
+	font-size: 25px;
+	color: #003153;
+}
+
+.role_img {
+	display: block;
+	margin: 8px auto 8px auto;
+	width: 20%;	
+	max-width: 100%;
+	height: auto;
+		
+	border-radius: 8px;	
+}
+
+.Image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;	
+	max-width: 100%;
+	height: auto;
+		
+	border-radius: 8px;	
+	margin-bottom: 2%;
+}
+
+.Table {
+	width: 40%;
+}
+
+.Grafic {
+	width: 65%;
+}
