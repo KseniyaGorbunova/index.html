@@ -133,3 +133,23 @@ window.onload = function(){
 	res = document.getElementById('Int6');
 	katex.render(f, res);
 };
+
+//СВОЙСТВА
+window.onload = function(){
+	f = "\\displaystyle\\int dF(x) = F(x) + C"
+	res = document.getElementById('Formule1');
+	katex.render(f, res);
+	f = "d\\displaystyle\\int f(x) dx = f(x) dx"
+	res = document.getElementById('Formule2');
+	katex.render(f, res);
+	f = "a < b, то \\displaystyle\\int_a^b f(x)dx \\geqslant 0"
+	res = document.getElementById('Formule3');
+	katex.render(f, res);
+	f = "\\displaystyle\\int_a^b f(x)dx = F(b) - F(a)"
+	res = document.getElementById('Formule4');
+	katex.render(f, res);
+	f = "a<c<b, то \\displaystyle\\int_a^c f(x)dx + \
+	\\int_c^b f(x)dx = \\int_a^b f(x)dx"
+	res = document.getElementById('Formule5');
+	katex.render(f, res);
+};
