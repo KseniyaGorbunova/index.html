@@ -11,7 +11,7 @@ html {
 
 body {
 	position: relative;
-    font-family: Garamond, Roboto, Helvetica, Arial,   sans-serif;
+    font-family: Times New Roman, Garamond, Roboto, Helvetica, Arial,   sans-serif;
 	height: 100%;
 
 }
@@ -215,7 +215,7 @@ body {
     top: 0;
     background-color: rgb(241,241,241);
     color: rgb(47,44,48);
-	font-size: 19px;
+	font-size: 21px;
 /* 	font-weight: bold; */
 	line-height: 120%;
 	transition: 0.5s;
