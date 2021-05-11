@@ -102,20 +102,16 @@ body {
 
 
 .Menu { 
-	/*position: fixed;	
-	left: 1.3vw; 
-	top: 7.7vw; */
 	position: absolute;
 	left: 0; 
 	top: 0.4vw;	
 	width: 15vw;
-	/*border: 2px groove rgb(70,72,79);*/
     background-color: rgba(97,101,110,.75);
     padding: 2%; 
 	text-align: left;
     border-radius: 5px;
 	height: 30vw;
-	border: groove 0.5vw #A5A5A5;/*#4D5D53;*/
+	border: groove 0.5vw #A5A5A5;
 	
 	transform: translateX(-109%);
 	transition: 0.5s;
@@ -132,11 +128,8 @@ body {
 	color: rgb(233,232,230);
     text-align: center;
 
-    /*font-family: Garamond;*/
     text-transform: uppercase;
     text-shadow:3px 3px 10px #293133,-3px -3px 10px #6A5ACD;
-	
-	/*color: #101921;	*/
 }
 
 .menu-list {
@@ -146,24 +139,19 @@ body {
 	height: 100%;
 	flex-direction: column;
 	
-	/*font-family: Garamond;*/
 	text-shadow: 3px 1.5px #293133; 
 	color: #ece2ca;
 }
 
 .Menu-btn {
 	display: block;
-	/*width: 40px;
-	height: 30px;*/
 	width: 4.5vw;
 	height: 3vw;
 	
 	background-color: rgb(47,44,48);
-	/*position: fixed;*/
 	position: absolute;
-	/*left: 10px;*/
 	left: 1vw;
-	top: 1.5vw;/*30px;	*/
+	top: 1.5vw;
 }
 
 .Menu-btn span,
@@ -172,7 +160,7 @@ body {
 	position: absolute;
 	top: 50%; margin-top:-2px;
 	left: 50%; margin-left: -15px;
-	width: 30px;/*4vw;*/
+	width: 30px;
 	height: 4px;
 	background-color: rgb(251,251,249);
 }
@@ -207,8 +195,6 @@ body {
 .First_item, .Second_item, .Third_item, 
 .Fourth_item, .Fifth_item {
 	color: rgb(251,251,249);
-	/*color: rgb(47,44,48);*/
-	/*font-weight: bold;*/
     font-size: 2.3vw;
     line-height: 180%;
 	text-decoration: none;
@@ -230,7 +216,7 @@ body {
     background-color: rgb(241,241,241);
     color: rgb(47,44,48);
 	font-size: 19px;
-	font-weight: bold;
+/* 	font-weight: bold; */
 	line-height: 120%;
 	transition: 0.5s;
 	position: relative;	
