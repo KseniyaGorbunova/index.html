@@ -75,6 +75,14 @@ window.addEventListener("load", function () {
 	f = "\\approx"
 	res = document.getElementById('Okolo3');
 	katex.render(f, res);
+	
+	//CROSSWORD
+	f = "d\\displaystyle\\int f(x) dx = f(x) dx"
+	res = document.getElementById('formule1');
+	katex.render(f, res);
+	f = "\\displaystyle\\int"
+	res = document.getElementById('formule2');
+	katex.render(f, res);
 });
 
 // Интегралы для Генри
