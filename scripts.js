@@ -137,19 +137,7 @@ window.onload = function(){
 
 //Хадсон
 window.onload = function(){
-	//ПЛОЩАДЬ
-	var f = "\\frac{16}{3} {м}^2"
-	var res = document.getElementById('S1');
-	katex.render(f, res);
-	f = "64 {м}^2"
-	res = document.getElementById('S2');
-	katex.render(f, res);
-	f = "\\frac{280}{3} {м}^2"
-	res = document.getElementById('S3');
-	katex.render(f, res);
-	f = "\\frac{716}{3} {м}^2"
-	res = document.getElementById('S4');
-	katex.render(f, res);
+	
 	
 	//СВОЙСТВА
 	f = "\\displaystyle\\int dF(x) = F(x) + C"
