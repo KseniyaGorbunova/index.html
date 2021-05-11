@@ -87,7 +87,7 @@ window.addEventListener("load", function () {
 });
 
 // Интегралы для Генри
-window.onload = function(){
+window.addEventListener("load", function () {
 	//First
 	var f = "\\displaystyle\\int_{0}^{\\pi} \\sin(x)dx - \
 	\\displaystyle\\int_{0}^{\\frac{\\pi}{2}}\\cos(x)dx + \
@@ -133,11 +133,23 @@ window.onload = function(){
 	\\displaystyle\\int_{-1}^2 5{x^4}dx"
 	res = document.getElementById('Int6');
 	katex.render(f, res);
-};
+});
 
 //Хадсон
 window.onload = function(){
-	
+	//ПЛОЩАДЬ
+	var f = "\\frac{16}{3} {м}^2"
+	var res = document.getElementById('S1');
+	katex.render(f, res);
+	f = "64 {м}^2"
+	res = document.getElementById('S2');
+	katex.render(f, res);
+	f = "\\frac{280}{3} {м}^2"
+	res = document.getElementById('S3');
+	katex.render(f, res);
+	f = "\\frac{716}{3} {м}^2"
+	res = document.getElementById('S4');
+	katex.render(f, res);
 	
 	//СВОЙСТВА
 	f = "\\displaystyle\\int dF(x) = F(x) + C"
@@ -163,6 +175,6 @@ window.onload = function(){
 	var f = "v(t)=-1250\\cdot t+225 \\big(\\frac{м}{c}\\big)"
 	var res = document.getElementById('Gun');
 	katex.render(f, res);	
-}	
+};	
 	
 	
