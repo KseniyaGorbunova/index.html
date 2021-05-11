@@ -37,7 +37,7 @@ document.querySelector('.Menu-btn').addEventListener('click', function(e){
 });
 
 
-// Формулы
+// Ватсон
 window.addEventListener("load", function () {
 	//Ватсон. Коляска
 	// находим элемент, в который будем рендерить формулу
@@ -57,6 +57,7 @@ window.addEventListener("load", function () {
 	katex.render("f(t)=\\frac{350}{{{(x-45)}^2}+9}", el);
 });
 
+//Шерлок
 window.addEventListener("load", function () {
 	var f = "\\frac{1}{5} \\sin (2t) + \\sqrt{t} + 6";
 	var res = document.getElementById('V_dog');
@@ -134,6 +135,7 @@ window.onload = function(){
 	katex.render(f, res);
 };
 
+//Хадсон
 window.onload = function(){
 	//ПЛОЩАДЬ
 	var f = "\\frac{16}{3} м^2"
@@ -167,3 +169,12 @@ window.onload = function(){
 	res = document.getElementById('Formule5');
 	katex.render(f, res);
 };
+
+//Лестрейд
+window.onload = function(){
+	var f = "v(t)=-1250\\cdot t+225 \\big(\\frac{м}{c}\\big)"
+	var res = document.getElementById('Gun');
+	katex.render(f, res);	
+}	
+	
+	
