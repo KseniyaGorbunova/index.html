@@ -136,7 +136,7 @@ window.addEventListener("load", function () {
 });
 
 //Хадсон
-window.onload = function(){
+window.addEventListener("load", function () {
 	//ПЛОЩАДЬ
 	var f = "\\frac{16}{3} {м}^2"
 	var res = document.getElementById('S1');
@@ -168,13 +168,13 @@ window.onload = function(){
 	\\int_c^b f(x)dx = \\int_a^b f(x)dx"
 	res = document.getElementById('Formule5');
 	katex.render(f, res);
-};
+});
 
 //Лестрейд
-window.onload = function(){
+window.addEventListener("load", function () {
 	var f = "v(t)=-1250\\cdot t+225 \\big(\\frac{м}{c}\\big)"
 	var res = document.getElementById('Gun');
 	katex.render(f, res);	
-};	
+});	
 	
 	
