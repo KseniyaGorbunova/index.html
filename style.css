@@ -202,7 +202,10 @@ body {
 	transition: .7s;
 }
 
-
+.Fourth_item {
+	font-size: 1.6vw;
+}
+	
 
 .Mycontent {
     height: auto;
