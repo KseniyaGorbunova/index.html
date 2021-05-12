@@ -104,7 +104,11 @@
 	border: 3px ridge rgba(70,72,79, .6);
 	border-radius: 8px;
 }
-
+.text_W, .Choose_W, .description_W,
+.text_L, .Choose_L, .description_L {
+	padding: 1vw 1vw;
+	margin: 0 2vw 1vw 2vw;
+}
 @-moz-document url-prefix() {
 	.description_W {
 		font-size: 1.3vw;
