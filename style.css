@@ -312,3 +312,19 @@ body {
 	border-top: 5px solid rgb(251,251,249);
 	border-left: 5px solid rgb(251,251,249);
 }
+
+.Var {
+	line-height: 180%;
+}
+
+.Image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;	
+	max-width: 100%;
+	height: auto;
+		
+	border-radius: 8px;	
+	margin-bottom: 2%;
+}
