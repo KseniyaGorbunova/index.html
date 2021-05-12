@@ -44,6 +44,8 @@ window.addEventListener("load", function () {
 	var el = document.getElementById("frac1");
 	// вызываем метод библиотеки для отображения формулы
 	katex.render("\\frac{4}{3}", el);
+	el = document.getElementById("frac1");
+	katex.render("100\\cdot {t}^2 - 10\\cdot t + 4.5", el);
 
 	el = document.getElementById("frac2");
 	katex.render("\\frac{87}{16}", el);
