@@ -105,6 +105,12 @@
 	border-radius: 8px;
 }
 
+@-moz-document url-prefix() {
+	.description_W {
+		font-size: 1.3vw;
+	}
+}
+
 .description_Sh_active, .description_W_active, .description_H_active, .description_M_active, .description_Had_active, .description_L_active {
 	font-size: 1vw;
 }
