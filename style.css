@@ -110,7 +110,7 @@ body {
     padding: 2%; 
 	text-align: left;
     border-radius: 5px;
-	height: 30vw;
+	height: 36vw;
 	border: groove 0.5vw #A5A5A5;
 	
 	transform: translateX(-109%);
@@ -196,7 +196,7 @@ body {
 .Fourth_item, .Fifth_item, .Sixth_item {
 	color: rgb(251,251,249);
     font-size: 1.8vw;
-    line-height: 180%;
+    line-height: 2.5vw;
 	text-decoration: none;
 	cursor: pointer;
 	transition: .7s;
