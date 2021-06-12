@@ -8,7 +8,7 @@
 @media only screen and (max-width: 992px) {
 	.Menu {
 		width: 18vw;
-		height: 50vh;
+		height: 55vh;
 	}
 	.MenuHeader{
 		font-size: 2.8vw;
@@ -16,7 +16,7 @@
 	.First_item, .Second_item, .Third_item, 
 	.Fourth_item, .Fifth_item, .Sixth_item {
 	    font-size: 2.25vw;
-	    line-height: 3vh;
+	    line-height: 100%;
 	}
 
 	.Mycontent {
@@ -40,7 +40,7 @@
 	.First_item, .Second_item, .Third_item, 
 	.Fourth_item, .Fifth_item, .Sixth_item {
 	    font-size: 2.25vw;
-	    line-height: 2.5vh;
+	    line-height: 100%;
 	}
 }
 
@@ -61,7 +61,7 @@
 	.First_item, .Second_item, .Third_item, 
 	.Fourth_item, .Fifth_item, .Sixth_item {
 	    font-size: 3vw;
-	    line-height: 2.5vh;
+	    line-height: 100%;
 	}
 
 	.Menu-btn {
@@ -127,7 +127,7 @@
 	.First_item, .Second_item, .Third_item, 
 	.Fourth_item, .Fifth_item, .Sixth_item {
 	    font-size: 3vw;
-	    line-height: 2vh;
+	    line-height:  120%;
 	}
 
 	.Menu-btn span {
