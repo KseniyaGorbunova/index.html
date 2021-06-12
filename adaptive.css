@@ -1,7 +1,12 @@
 /*******Desktop First*******/
 /*Large Devices, Wide Screens*/
 @media only screen and (max-width: 1200px) {
-
+	@-moz-document url-prefix() {
+		.First_item, .Second_item, .Third_item, 
+		.Fourth_item, .Fifth_item, .Sixth_item {
+		    line-height: 230%;
+		}
+	}
 }
 
 /*Medium Devices, Desktops*/
@@ -25,6 +30,13 @@
 	.Introduction, .Target, .Task {
 	font-size: 23px;
 	}
+	
+	@-moz-document url-prefix() {
+	.First_item, .Second_item, .Third_item, 
+	.Fourth_item, .Fifth_item, .Sixth_item {
+	    line-height: 200%;
+	}
+	}
 }
 
 /*Small Devices, Tablets*/
@@ -41,6 +53,12 @@
 	.Fourth_item, .Fifth_item, .Sixth_item {
 	    font-size: 2.25vw;
 	    line-height: 100%;
+	}
+	@-moz-document url-prefix() {
+	.First_item, .Second_item, .Third_item, 
+	.Fourth_item, .Fifth_item, .Sixth_item {
+	    line-height: 200%;
+	}
 	}
 }
 
@@ -63,7 +81,13 @@
 	    font-size: 3vw;
 	    line-height: 100%;
 	}
-
+	@-moz-document url-prefix() {
+	.First_item, .Second_item, .Third_item, 
+	.Fourth_item, .Fifth_item, .Sixth_item {
+	    line-height: 200%;
+	}
+	}
+	
 	.Menu-btn {
 		width: 5vw;
 		height: 4vw;
@@ -128,6 +152,12 @@
 	.Fourth_item, .Fifth_item, .Sixth_item {
 	    font-size: 3vw;
 	    line-height:  120%;
+	}
+	@-moz-document url-prefix() {
+	.First_item, .Second_item, .Third_item, 
+	.Fourth_item, .Fifth_item, .Sixth_item {
+	    line-height: 200%;
+	}
 	}
 
 	.Menu-btn span {
