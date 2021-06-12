@@ -197,6 +197,7 @@ body {
 	color: rgb(251,251,249);
     font-size: 1.8vw;
     line-height: 3vh;
+	text-align: center;
 	text-decoration: none;
 	cursor: pointer;
 	transition: .7s;
