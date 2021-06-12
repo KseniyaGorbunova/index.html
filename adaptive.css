@@ -131,7 +131,7 @@
 	}
 
 	.Menu-btn span {
-		transform: translateX(-10px);
+		transform: translateX(0px);
 	}
 	.Menu-btn span::before {
 		transform: translateY(4px);
