@@ -56,7 +56,7 @@ window.addEventListener("load", function () {
 
 	//Ватсон. Эпидемия
 	el = document.getElementById("Epid");
-	katex.render("f(t)=\\frac{350}{{{(x-45)}^2}+9}", el);
+	katex.render("f(t)=\\frac{350}{{{(t-45)}^2}+9}", el);
 	
 	//Пирожки
 	el = document.getElementById("Pies");
