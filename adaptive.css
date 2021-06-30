@@ -9,7 +9,7 @@
 	}
 	.Menu {
 		width: 15vw;
-		height: 45vh;
+		height: 55vh;
 	}
 	.First_item, .Second_item, .Third_item, 
 	.Fourth_item, .Fifth_item, .Sixth_item {
@@ -17,7 +17,7 @@
 	    line-height: 100%;
 	}
 	.Mycontent {
-		font-size: 26px;
+		font-size: 22px;
 	}
 }
 
@@ -74,7 +74,7 @@
 	.First_item, .Second_item, .Third_item, 
 	.Fourth_item, .Fifth_item, .Sixth_item {
 	    font-size: 2.25vw;
-	    line-height: 100%;
+	    line-height: 180%;
 	}
 	@-moz-document url-prefix() {
 	.First_item, .Second_item, .Third_item, 
@@ -87,7 +87,7 @@
 /*Extra Small Devices, Phones*/
 @media only screen and (max-width: 480px) {
 	.About_me {
-		font-size: 3vw;
+		font-size: 3.5vw;
 	}
 
 	.Menu {
